@@ -39,7 +39,6 @@ $(document).ready(function() {
             },
             dataType: 'json'
         }).done(function(response) {
-            console.log('success', response);
             var iconCode = response.weather[0].icon;
             setIcon(iconCode);
         }).fail(function(err) {
