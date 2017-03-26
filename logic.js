@@ -26,17 +26,14 @@ function setIcon(icon) {
     $('#icon').removeClass();
     $('#icon').addClass(getIconClass(icon));
 }
+
 $(document).ready(function() {
     navigator.geolocation.getCurrentPosition(function(pos) {
         var crd = pos.coords;
-        //crd.longitude = 70;
-        //crd.latitude = 180;
 
-        console.log(crd);
         $.get({
-            url: 'http://api.openweathermap.org/data/2.5/weather', 
+            url: 'https://vali.li/data/2.5/weather',
             data: {
-                'appid': 'f8e5b448cd58def67f4b2ac311c583b1',
                 'lat': crd.latitude,
                 'lon': crd.longitude
             },
@@ -52,4 +49,3 @@ $(document).ready(function() {
         setIcon('error');
     });
 });
-
