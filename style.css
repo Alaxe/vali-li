@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+}
+#icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -15vmin;
+    width: 100%;
+    text-align: center;
+    font-size: 30vmin;
+
+}
+#icon.fa-hourglass-o {
+    color: #fff;
+}
+
+#icon.fa-sun-o {
+    color: #FF9933;
+}
+#icon.fa-moon-o {
+    color: #FFFF99;
+}
+#icon.fa-cloud {
+    color: #BBBBBB;
+}
+#icon.fa-tint {
+    color: #4444FF;
+}
+#icon.fa-bolt {
+    color: #FFFF44;
+}
+#icon.fa-snowflake-o {
+    color: #FFFFFF;
+}
+#icon.fa-frown-o {
+    color: #0099CC;
+}
+
+
