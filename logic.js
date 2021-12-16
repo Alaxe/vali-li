@@ -32,12 +32,13 @@ $(document).ready(function() {
         var crd = pos.coords;
 
         $.get({
-            url: 'https://vali.li/data/2.5/weather',
+            url: 'https://api.openweathermap.org/data/2.5/weather',
             data: {
                 'lat': crd.latitude,
-                'lon': crd.longitude
+                'lon': crd.longitude,
+                'appid': '534bdeee69ded9416f8de18456093176',
             },
-            dataType: 'json'
+            dataType: 'json',
         }).done(function(response) {
             var iconCode = response.weather[0].icon;
             setIcon(iconCode);
