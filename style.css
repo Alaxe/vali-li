@@ -1,41 +1,49 @@
 body {
-    padding: 0px;
-    margin: 0px;
-    background-color: #333;
+  padding: 0px;
+  margin: 0px;
+  background-color: #111;
 }
 #icon {
-    position: absolute;
-    top: 50%;
-    margin-top: -15vmin;
-    width: 100%;
-    text-align: center;
-    font-size: 30vmin;
-
-}
-#icon.fa-hourglass-o {
-    color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -15vmin;
+  width: 100%;
+  text-align: center;
+  font-size: 30vmin;
 }
 
-#icon.fa-sun-o {
-    color: #FF9933;
+#icon.fa-hourglass {
+  color: #fff;
 }
-#icon.fa-moon-o {
-    color: #FFFF99;
-}
-#icon.fa-cloud {
-    color: #BBBBBB;
-}
-#icon.fa-tint {
-    color: #4444FF;
-}
-#icon.fa-bolt {
-    color: #FFFF44;
-}
-#icon.fa-snowflake-o {
-    color: #FFFFFF;
-}
-#icon.fa-frown-o {
-    color: #0099CC;
+#icon.fa-sun,
+#icon.fa-cloud-sun {
+  color: #ff2;
 }
 
+#icon.fa-moon,
+#icon.fa-cloud-moon {
+  color: #ffa;
+}
 
+#icon.fa-cloud,
+#icon.fa-smog {
+  color: #ddd;
+}
+
+#icon.fa-cloud-showers-heavy,
+#icon.fa-cloud-sun-rain,
+#icon.fa-cloud-moon-rain {
+  color: #48f;
+}
+
+#icon.fa-cloud-bolt {
+  color: #8f0;
+}
+
+#icon.fa-snowflake {
+  color: #fff;
+}
+
+#icon.fa-dice {
+  color: #f11;
+}
